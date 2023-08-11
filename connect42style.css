@@ -1,0 +1,43 @@
+body {
+    background-image: url('space.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(7, 80px);
+    grid-template-rows: repeat(6, 80px);
+    gap: 5px;
+    margin: 20px auto;
+    border: 2px solid yellow;
+    padding: 10px;  
+    width: 590px;  
+  }
+  
+  .Heading-Text {
+    font-size:120px;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    -webkit-text-stroke: 2px yellow;
+  }
+ 
+  .cell {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(250, 248, 248, 0.4);
+    cursor: url("lightsaber.png"), pointer;  
+  }
+  
+  .red {
+    background-color: rgb(103, 5, 5);
+  }
+  
+  .Blue {
+    background-color: rgb(46, 103, 248);
+  }
+  
